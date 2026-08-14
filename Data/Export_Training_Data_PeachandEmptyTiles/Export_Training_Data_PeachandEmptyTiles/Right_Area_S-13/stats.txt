@@ -1,0 +1,8 @@
+images = 81 *4*256*256
+
+Class feature statistics:
+features = 22
+features per image = [min = 1, mean = 3.14, max = 6]
+classes = 1
+cls name                                  cls value     images   features    min size   mean size    max size
+Undefined                                         1          7         22        0.00        0.00        0.00

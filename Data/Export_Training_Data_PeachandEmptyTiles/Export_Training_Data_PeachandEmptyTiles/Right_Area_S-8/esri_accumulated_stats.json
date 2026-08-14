@@ -1,0 +1,112 @@
+{
+  "Version" : 1,
+  "NumBands" : 4,
+  "TileSizeX" : 256,
+  "TileSizeY" : 256,
+  "NumClasses" : 1,
+  "NumTiles" : 81,
+  "NumTilesAsDouble" : 81,
+  "NextTileIndex" : 81,
+  "OutputFeatures" : true,
+  "MetaDataMode" : "PASCAL_VOC_rectangles",
+  "MinCellSize" : {
+    "x" : 0.0021671599999985663,
+    "y" : 0.0021671599999987037,
+    "spatialReference" : {
+      "wkt" : "COMPOUNDCRS[\"\",PROJCRS[\"NAD_1983_2011_StatePlane_South_Carolina_FIPS_3900\",BASEGEOGCRS[\"GCS_NAD_1983_2011\",DATUM[\"D_NAD_1983_2011\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101],ANCHOREPOCH[2010.0]],PRIMEM[\"Greenwich\",0.0],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]],CONVERSION[\"Lambert_Conformal_Conic\",METHOD[\"Lambert_Conformal_Conic\"],PARAMETER[\"False_Easting\",609600.0],PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\",-81.0],PARAMETER[\"Standard_Parallel_1\",32.5],PARAMETER[\"Standard_Parallel_2\",34.83333333333334],PARAMETER[\"Latitude_Of_Origin\",31.83333333333333]],CS[Cartesian,2],AXIS[\"Easting (X)\",east,ORDER[1]],AXIS[\"Northing (Y)\",north,ORDER[2]],LENGTHUNIT[\"Meter\",1.0]],VERTCRS[\"unknown\",VDATUM[\"unknown\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",up,LENGTHUNIT[\"Meter\",1.0]]]]"
+    }
+  },
+  "MaxCellSize" : {
+    "x" : 0.0021671599999985663,
+    "y" : 0.0021671599999987037,
+    "spatialReference" : {
+      "wkt" : "COMPOUNDCRS[\"\",PROJCRS[\"NAD_1983_2011_StatePlane_South_Carolina_FIPS_3900\",BASEGEOGCRS[\"GCS_NAD_1983_2011\",DATUM[\"D_NAD_1983_2011\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101],ANCHOREPOCH[2010.0]],PRIMEM[\"Greenwich\",0.0],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]],CONVERSION[\"Lambert_Conformal_Conic\",METHOD[\"Lambert_Conformal_Conic\"],PARAMETER[\"False_Easting\",609600.0],PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\",-81.0],PARAMETER[\"Standard_Parallel_1\",32.5],PARAMETER[\"Standard_Parallel_2\",34.83333333333334],PARAMETER[\"Latitude_Of_Origin\",31.83333333333333]],CS[Cartesian,2],AXIS[\"Easting (X)\",east,ORDER[1]],AXIS[\"Northing (Y)\",north,ORDER[2]],LENGTHUNIT[\"Meter\",1.0]],VERTCRS[\"unknown\",VDATUM[\"unknown\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",up,LENGTHUNIT[\"Meter\",1.0]]]]"
+    }
+  },
+  "Classes" : [
+    {
+      "ClassValue" : 1,
+      "ClassName" : "Undefined",
+      "Color" : [
+        -1,
+        -1,
+        -1
+      ]
+    }
+  ],
+  "FeatureStats" : {
+    "NumClasses" : 1,
+    "NumImagesTotal" : 81,
+    "NumFeaturesTotal" : 130,
+    "NumImagesPerClass" : [
+      45
+    ],
+    "NumFeaturesPerClass" : [
+      130
+    ],
+    "NumFeaturesPerImage" : {
+      "Min" : 1,
+      "Max" : 8,
+      "Mean" : 2.8888888888888888,
+      "Sum" : 130,
+      "Count" : 45
+    },
+    "FeatureAreaPerClass" : [
+      {
+        "Min" : 7.4800118398665738e-06,
+        "Max" : 0.0013955901006644927,
+        "Mean" : 0.00038839507697264303,
+        "Sum" : 0.050491360006443595,
+        "Count" : 130
+      }
+    ]
+  },
+  "InputRastersProps" : {
+    "RasterCount" : 1,
+    "SensorName" : "MultiSpectral",
+    "BandNames" : [
+      "Red",
+      "Green",
+      "Blue",
+      "Alpha"
+    ]
+  },
+  "BandStatsState" : [
+    {
+      "Min" : 0,
+      "Max" : 255,
+      "Mean" : 0,
+      "StdDev" : 0,
+      "M1" : 115.83637586052049,
+      "M2" : 19424780125.526867,
+      "Num" : 5308416
+    },
+    {
+      "Min" : 0,
+      "Max" : 255,
+      "Mean" : 0,
+      "StdDev" : 0,
+      "M1" : 118.6636318630642,
+      "M2" : 10080122857.109253,
+      "Num" : 5308416
+    },
+    {
+      "Min" : 0,
+      "Max" : 251,
+      "Mean" : 0,
+      "StdDev" : 0,
+      "M1" : 59.002815152391953,
+      "M2" : 16243395707.930326,
+      "Num" : 5308416
+    },
+    {
+      "Min" : 255,
+      "Max" : 255,
+      "Mean" : 0,
+      "StdDev" : 0,
+      "M1" : 255,
+      "M2" : 0,
+      "Num" : 5308416
+    }
+  ]
+}

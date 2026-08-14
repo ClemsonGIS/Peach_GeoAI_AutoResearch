@@ -1,0 +1,112 @@
+{
+  "Version" : 1,
+  "NumBands" : 4,
+  "TileSizeX" : 256,
+  "TileSizeY" : 256,
+  "NumClasses" : 1,
+  "NumTiles" : 80,
+  "NumTilesAsDouble" : 80,
+  "NextTileIndex" : 80,
+  "OutputFeatures" : true,
+  "MetaDataMode" : "PASCAL_VOC_rectangles",
+  "MinCellSize" : {
+    "x" : 0.0021671599999985663,
+    "y" : 0.0021671599999987037,
+    "spatialReference" : {
+      "wkt" : "COMPOUNDCRS[\"\",PROJCRS[\"NAD_1983_2011_StatePlane_South_Carolina_FIPS_3900\",BASEGEOGCRS[\"GCS_NAD_1983_2011\",DATUM[\"D_NAD_1983_2011\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101],ANCHOREPOCH[2010.0]],PRIMEM[\"Greenwich\",0.0],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]],CONVERSION[\"Lambert_Conformal_Conic\",METHOD[\"Lambert_Conformal_Conic\"],PARAMETER[\"False_Easting\",609600.0],PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\",-81.0],PARAMETER[\"Standard_Parallel_1\",32.5],PARAMETER[\"Standard_Parallel_2\",34.83333333333334],PARAMETER[\"Latitude_Of_Origin\",31.83333333333333]],CS[Cartesian,2],AXIS[\"Easting (X)\",east,ORDER[1]],AXIS[\"Northing (Y)\",north,ORDER[2]],LENGTHUNIT[\"Meter\",1.0]],VERTCRS[\"unknown\",VDATUM[\"unknown\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",up,LENGTHUNIT[\"Meter\",1.0]]]]"
+    }
+  },
+  "MaxCellSize" : {
+    "x" : 0.0021671599999985663,
+    "y" : 0.0021671599999987037,
+    "spatialReference" : {
+      "wkt" : "COMPOUNDCRS[\"\",PROJCRS[\"NAD_1983_2011_StatePlane_South_Carolina_FIPS_3900\",BASEGEOGCRS[\"GCS_NAD_1983_2011\",DATUM[\"D_NAD_1983_2011\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101],ANCHOREPOCH[2010.0]],PRIMEM[\"Greenwich\",0.0],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]],CONVERSION[\"Lambert_Conformal_Conic\",METHOD[\"Lambert_Conformal_Conic\"],PARAMETER[\"False_Easting\",609600.0],PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\",-81.0],PARAMETER[\"Standard_Parallel_1\",32.5],PARAMETER[\"Standard_Parallel_2\",34.83333333333334],PARAMETER[\"Latitude_Of_Origin\",31.83333333333333]],CS[Cartesian,2],AXIS[\"Easting (X)\",east,ORDER[1]],AXIS[\"Northing (Y)\",north,ORDER[2]],LENGTHUNIT[\"Meter\",1.0]],VERTCRS[\"unknown\",VDATUM[\"unknown\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",up,LENGTHUNIT[\"Meter\",1.0]]]]"
+    }
+  },
+  "Classes" : [
+    {
+      "ClassValue" : 1,
+      "ClassName" : "Undefined",
+      "Color" : [
+        -1,
+        -1,
+        -1
+      ]
+    }
+  ],
+  "FeatureStats" : {
+    "NumClasses" : 1,
+    "NumImagesTotal" : 80,
+    "NumFeaturesTotal" : 7,
+    "NumImagesPerClass" : [
+      2
+    ],
+    "NumFeaturesPerClass" : [
+      7
+    ],
+    "NumFeaturesPerImage" : {
+      "Min" : 2,
+      "Max" : 5,
+      "Mean" : 3.5,
+      "Sum" : 7,
+      "Count" : 2
+    },
+    "FeatureAreaPerClass" : [
+      {
+        "Min" : 0.00010660006027818358,
+        "Max" : 0.0006985500535413719,
+        "Mean" : 0.00034993858818820848,
+        "Sum" : 0.0024495701173174594,
+        "Count" : 7
+      }
+    ]
+  },
+  "InputRastersProps" : {
+    "RasterCount" : 1,
+    "SensorName" : "MultiSpectral",
+    "BandNames" : [
+      "Red",
+      "Green",
+      "Blue",
+      "Alpha"
+    ]
+  },
+  "BandStatsState" : [
+    {
+      "Min" : 1,
+      "Max" : 255,
+      "Mean" : 0,
+      "StdDev" : 0,
+      "M1" : 173.20234680175787,
+      "M2" : 5064355736.3249273,
+      "Num" : 5242880
+    },
+    {
+      "Min" : 6,
+      "Max" : 255,
+      "Mean" : 0,
+      "StdDev" : 0,
+      "M1" : 157.548476791382,
+      "M2" : 3606838233.2356944,
+      "Num" : 5242880
+    },
+    {
+      "Min" : 0,
+      "Max" : 255,
+      "Mean" : 0,
+      "StdDev" : 0,
+      "M1" : 124.09352474212658,
+      "M2" : 6499765372.171504,
+      "Num" : 5242880
+    },
+    {
+      "Min" : 255,
+      "Max" : 255,
+      "Mean" : 0,
+      "StdDev" : 0,
+      "M1" : 255,
+      "M2" : 0,
+      "Num" : 5242880
+    }
+  ]
+}

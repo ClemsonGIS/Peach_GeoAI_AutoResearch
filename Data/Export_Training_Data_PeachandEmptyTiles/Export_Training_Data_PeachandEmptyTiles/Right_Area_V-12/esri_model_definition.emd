@@ -1,0 +1,74 @@
+{
+  "ImageHeight" : 256,
+  "ImageWidth" : 256,
+  "MetaDataMode" : "PASCAL_VOC_rectangles",
+  "BlackenAroundFeature" : false,
+  "IsMultidimensional" : false,
+  "CropTileMode" : "Fixed_Size",
+  "ImageSpaceUsed" : "MAP_SPACE",
+  "MinCellSize" : {
+    "x" : 0.0021671599999985663,
+    "y" : 0.0021671599999987037,
+    "spatialReference" : {
+      "wkt" : "COMPOUNDCRS[\"\",PROJCRS[\"NAD_1983_2011_StatePlane_South_Carolina_FIPS_3900\",BASEGEOGCRS[\"GCS_NAD_1983_2011\",DATUM[\"D_NAD_1983_2011\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101],ANCHOREPOCH[2010.0]],PRIMEM[\"Greenwich\",0.0],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]],CONVERSION[\"Lambert_Conformal_Conic\",METHOD[\"Lambert_Conformal_Conic\"],PARAMETER[\"False_Easting\",609600.0],PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\",-81.0],PARAMETER[\"Standard_Parallel_1\",32.5],PARAMETER[\"Standard_Parallel_2\",34.83333333333334],PARAMETER[\"Latitude_Of_Origin\",31.83333333333333]],CS[Cartesian,2],AXIS[\"Easting (X)\",east,ORDER[1]],AXIS[\"Northing (Y)\",north,ORDER[2]],LENGTHUNIT[\"Meter\",1.0]],VERTCRS[\"unknown\",VDATUM[\"unknown\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",up,LENGTHUNIT[\"Meter\",1.0]]]]"
+    }
+  },
+  "MaxCellSize" : {
+    "x" : 0.0021671599999985663,
+    "y" : 0.0021671599999987037,
+    "spatialReference" : {
+      "wkt" : "COMPOUNDCRS[\"\",PROJCRS[\"NAD_1983_2011_StatePlane_South_Carolina_FIPS_3900\",BASEGEOGCRS[\"GCS_NAD_1983_2011\",DATUM[\"D_NAD_1983_2011\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101],ANCHOREPOCH[2010.0]],PRIMEM[\"Greenwich\",0.0],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]],CONVERSION[\"Lambert_Conformal_Conic\",METHOD[\"Lambert_Conformal_Conic\"],PARAMETER[\"False_Easting\",609600.0],PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\",-81.0],PARAMETER[\"Standard_Parallel_1\",32.5],PARAMETER[\"Standard_Parallel_2\",34.83333333333334],PARAMETER[\"Latitude_Of_Origin\",31.83333333333333]],CS[Cartesian,2],AXIS[\"Easting (X)\",east,ORDER[1]],AXIS[\"Northing (Y)\",north,ORDER[2]],LENGTHUNIT[\"Meter\",1.0]],VERTCRS[\"unknown\",VDATUM[\"unknown\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",up,LENGTHUNIT[\"Meter\",1.0]]]]"
+    }
+  },
+  "Classes" : [
+    {
+      "Value" : 1,
+      "Name" : "Undefined",
+      "Color" : [
+        -1,
+        -1,
+        -1
+      ]
+    }
+  ],
+  "InputRastersProps" : {
+    "RasterCount" : 1,
+    "SensorName" : "MultiSpectral",
+    "BandNames" : [
+      "Red",
+      "Green",
+      "Blue",
+      "Alpha"
+    ]
+  },
+  "AllTilesStats" : [
+    {
+      "BandName" : "Red",
+      "Min" : 1,
+      "Max" : 255,
+      "Mean" : 173.20234680175787,
+      "StdDev" : 31.079726241004323
+    },
+    {
+      "BandName" : "Green",
+      "Min" : 6,
+      "Max" : 255,
+      "Mean" : 157.548476791382,
+      "StdDev" : 26.228799601007879
+    },
+    {
+      "BandName" : "Blue",
+      "Min" : 0,
+      "Max" : 255,
+      "Mean" : 124.09352474212658,
+      "StdDev" : 35.209829537807572
+    },
+    {
+      "BandName" : "Alpha",
+      "Min" : 255,
+      "Max" : 255,
+      "Mean" : 255,
+      "StdDev" : 0
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "Version" : 1,
+  "NumBands" : 4,
+  "TileSizeX" : 256,
+  "TileSizeY" : 256,
+  "NumClasses" : 1,
+  "NumTiles" : 63,
+  "NumTilesAsDouble" : 63,
+  "NextTileIndex" : 63,
+  "OutputFeatures" : true,
+  "MetaDataMode" : "PASCAL_VOC_rectangles",
+  "MinCellSize" : {
+    "x" : 0.0021671599999985663,
+    "y" : 0.0021671599999987037,
+    "spatialReference" : {
+      "wkt" : "COMPOUNDCRS[\"\",PROJCRS[\"NAD_1983_2011_StatePlane_South_Carolina_FIPS_3900\",BASEGEOGCRS[\"GCS_NAD_1983_2011\",DATUM[\"D_NAD_1983_2011\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101],ANCHOREPOCH[2010.0]],PRIMEM[\"Greenwich\",0.0],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]],CONVERSION[\"Lambert_Conformal_Conic\",METHOD[\"Lambert_Conformal_Conic\"],PARAMETER[\"False_Easting\",609600.0],PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\",-81.0],PARAMETER[\"Standard_Parallel_1\",32.5],PARAMETER[\"Standard_Parallel_2\",34.83333333333334],PARAMETER[\"Latitude_Of_Origin\",31.83333333333333]],CS[Cartesian,2],AXIS[\"Easting (X)\",east,ORDER[1]],AXIS[\"Northing (Y)\",north,ORDER[2]],LENGTHUNIT[\"Meter\",1.0]],VERTCRS[\"unknown\",VDATUM[\"unknown\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",up,LENGTHUNIT[\"Meter\",1.0]]]]"
+    }
+  },
+  "MaxCellSize" : {
+    "x" : 0.0021671599999985663,
+    "y" : 0.0021671599999987037,
+    "spatialReference" : {
+      "wkt" : "COMPOUNDCRS[\"\",PROJCRS[\"NAD_1983_2011_StatePlane_South_Carolina_FIPS_3900\",BASEGEOGCRS[\"GCS_NAD_1983_2011\",DATUM[\"D_NAD_1983_2011\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101],ANCHOREPOCH[2010.0]],PRIMEM[\"Greenwich\",0.0],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]],CONVERSION[\"Lambert_Conformal_Conic\",METHOD[\"Lambert_Conformal_Conic\"],PARAMETER[\"False_Easting\",609600.0],PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\",-81.0],PARAMETER[\"Standard_Parallel_1\",32.5],PARAMETER[\"Standard_Parallel_2\",34.83333333333334],PARAMETER[\"Latitude_Of_Origin\",31.83333333333333]],CS[Cartesian,2],AXIS[\"Easting (X)\",east,ORDER[1]],AXIS[\"Northing (Y)\",north,ORDER[2]],LENGTHUNIT[\"Meter\",1.0]],VERTCRS[\"unknown\",VDATUM[\"unknown\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",up,LENGTHUNIT[\"Meter\",1.0]]]]"
+    }
+  },
+  "Classes" : [
+    {
+      "ClassValue" : 1,
+      "ClassName" : "Undefined",
+      "Color" : [
+        -1,
+        -1,
+        -1
+      ]
+    }
+  ],
+  "FeatureStats" : {
+    "NumClasses" : 1,
+    "NumImagesTotal" : 63,
+    "NumFeaturesTotal" : 80,
+    "NumImagesPerClass" : [
+      30
+    ],
+    "NumFeaturesPerClass" : [
+      80
+    ],
+    "NumFeaturesPerImage" : {
+      "Min" : 1,
+      "Max" : 7,
+      "Mean" : 2.6666666666666665,
+      "Sum" : 80,
+      "Count" : 30
+    },
+    "FeatureAreaPerClass" : [
+      {
+        "Min" : 2.2459989258052926e-05,
+        "Max" : 0.0012996850141087229,
+        "Mean" : 0.00055612575374462887,
+        "Sum" : 0.044490060299570311,
+        "Count" : 80
+      }
+    ]
+  },
+  "InputRastersProps" : {
+    "RasterCount" : 1,
+    "SensorName" : "MultiSpectral",
+    "BandNames" : [
+      "Red",
+      "Green",
+      "Blue",
+      "Alpha"
+    ]
+  },
+  "BandStatsState" : [
+    {
+      "Min" : 0,
+      "Max" : 255,
+      "Mean" : 0,
+      "StdDev" : 0,
+      "M1" : 140.97492544991641,
+      "M2" : 11948363569.107086,
+      "Num" : 4128768
+    },
+    {
+      "Min" : 0,
+      "Max" : 255,
+      "Mean" : 0,
+      "StdDev" : 0,
+      "M1" : 132.42157321506076,
+      "M2" : 6620388264.93647,
+      "Num" : 4128768
+    },
+    {
+      "Min" : 0,
+      "Max" : 253,
+      "Mean" : 0,
+      "StdDev" : 0,
+      "M1" : 80.761316935221416,
+      "M2" : 12186542724.716248,
+      "Num" : 4128768
+    },
+    {
+      "Min" : 255,
+      "Max" : 255,
+      "Mean" : 0,
+      "StdDev" : 0,
+      "M1" : 255,
+      "M2" : 0,
+      "Num" : 4128768
+    }
+  ]
+}
