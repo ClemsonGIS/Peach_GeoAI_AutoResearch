@@ -1,0 +1,18 @@
+## CURRENT SITUATION
+This is TRIAL 1 of 30. No trials have been run yet, so you have no performance
+feedback. You must propose the initial hyperparameter configuration.
+
+## STRATEGY FOR TRIAL 1
+- Propose the configuration you believe has the highest expected mAP50-95
+  given everything stated above — your best domain-informed prior, not a
+  random or timid guess. A strong first trial anchors the entire search.
+- Avoid proposing a configuration whose results would be uninformative. Your
+  first trial doubles as the reference point against which you will interpret
+  all later trials, so choose values you can reason about and perturb
+  deliberately in subsequent trials.
+- For each hyperparameter, your justification should state the mechanism you
+  expect to matter for small-peach detection in nadir orchard imagery (e.g.,
+  invariance arguments, small-object effects, regularization needs of a nano
+  model), not generic textbook advice.
+
+Produce your JSON response now.

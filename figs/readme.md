@@ -1,0 +1,1 @@
+This folder contains all of the plots outputted as part of `Figures.ipynb`

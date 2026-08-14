@@ -1,0 +1,42 @@
+## CURRENT SITUATION
+This is TRIAL {{TRIAL_NUMBER}} of 30. {{TRIALS_REMAINING}} trials remain after
+this one.
+
+## TRIAL HISTORY (all completed trials, in order)
+Each entry lists the exact hyperparameters used and the resulting mean
+mAP50-95 across the 3 folds (higher is better).
+
+{{TRIAL_HISTORY}}
+
+Best result so far: mean mAP50-95 = {{BEST_SCORE}} at trial {{BEST_TRIAL_NUMBER}}
+with hyperparameters:
+{{BEST_PARAMS}}
+
+## STRATEGY FOR THIS TRIAL
+- First, analyze the history: which changes between trials coincided with
+  score improvements or regressions? Be careful with credit assignment —
+  when multiple hyperparameters changed simultaneously, the score change
+  cannot be attributed to any single one with certainty. State your working
+  hypotheses explicitly in your justifications.
+- Treat score differences smaller than typical 3-fold evaluation noise as
+  inconclusive rather than as evidence. Repeated consistent trends across
+  several trials are stronger evidence than any single comparison.
+- Manage your remaining budget deliberately:
+  - With many trials remaining, it is rational to test hypotheses, probe
+    unexplored regions of the space, and occasionally make larger coordinated
+    changes to escape local optima.
+  - As the budget shrinks, shift toward exploitation: refine around the best
+    known configurations with smaller, targeted perturbations.
+  - In the final few trials, prioritize configurations with the highest
+    expected score; do not spend the last trials on risky exploration.
+- You may change as many or as few hyperparameters as you wish. Changing
+  fewer parameters yields cleaner attribution; changing more covers ground
+  faster. Choose based on your current uncertainty and remaining budget.
+- Do not resubmit a configuration identical to a previous trial or to the
+  baseline configuration — those scores are already known exactly.
+- Never propose a value outside its allowed range.
+- For each hyperparameter, justify the value in 1-3 sentences. When a value
+  is unchanged from a prior trial, briefly say why you are keeping it. When
+  changed, reference the evidence or hypothesis motivating the change.
+
+Produce your JSON response now.
